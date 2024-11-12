@@ -1,0 +1,15 @@
+@import '__imports__/reusable';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px;
+    text-align: center;
+}
+
+.button {
+    @extend.button
+}
